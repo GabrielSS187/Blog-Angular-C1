@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+//* Tamanhaos de telas pre-definidas
+// Estilos para telas pequenas
+$small-screen-width: 767px;
+
+// Estilos para telas médias
+$width-screen-media: 992px;
+
+// Estilos para telas grandes
+$wide-screen-width: 1200px;
+//* ===================================
+
+//* Cores pre-definidas
+$body-background-color: #111111;
+//* ===================================
+
+
+//* SCSS ==============================
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $body-background-color;
+}
+
+
