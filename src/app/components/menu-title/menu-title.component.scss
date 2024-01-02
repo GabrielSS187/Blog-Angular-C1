@@ -3,8 +3,8 @@
 }
 
 .container_menu-title > h1 {
-  margin: 1rem 0;
-  font-size: 2rem;
+  padding: .5rem 0;
+  font-size: clamp(2.5rem, 5vw, 3rem);
   font-family: 'Sgoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-transform: uppercase;
   display: flex;

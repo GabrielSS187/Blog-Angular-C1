@@ -1,0 +1,24 @@
+.container_small-card-content {
+  margin-top: 2rem;
+}
+
+.small-card_photo {
+  display: flex;
+  justify-content: center;
+}
+.small-card_photo > img {
+  width: min(95%, 22rem)
+}
+
+.small-card_title > h1 {
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.container_small-card-separetor > hr {
+  margin: 1.5rem .5rem;
+  height: .25rem;
+  border-radius: .5rem;
+  background-color: #ffff;
+}

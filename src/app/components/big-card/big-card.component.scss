@@ -8,15 +8,14 @@
   border-radius: .3rem;
 }
 
-.big-card_title {
+.big-card_title > h1 {
   text-align: center;
   margin-top: .5rem;
   padding: 0 .35rem;
 }
 
-.big-card_description {
+.big-card_description > p {
   text-align: center;
   font-size: .7rem;
-  margin-top: .2rem;
   padding: 0 .35rem;
 }
