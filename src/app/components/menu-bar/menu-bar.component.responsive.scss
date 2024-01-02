@@ -1,0 +1,26 @@
+@import 'src/styles.scss';
+
+@media screen and (min-width: $small-screen-width) {
+  .menu, .standalone-trigger {
+    display: none;
+  }
+
+  .container_menu-bar-desktop {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container_menu-bar-desktop > ul {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    width: 100%;
+    list-style: none;
+  }
+
+  li, a {
+    color: #ffff;
+    background-color: #0000;
+  }
+}
