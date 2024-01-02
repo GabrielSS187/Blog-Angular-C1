@@ -1,5 +1,6 @@
 .container_small-card-content {
   margin-top: 2rem;
+  width: 100%;
 }
 
 .small-card_photo {
@@ -16,7 +17,12 @@
   margin-top: .5rem;
 }
 
+.container_small-card-separetor {
+  display: flex;
+  justify-content: center;
+}
 .container_small-card-separetor > hr {
+  width: min(90%, 100%);
   margin: 1.5rem .5rem;
   height: .25rem;
   border-radius: .5rem;
