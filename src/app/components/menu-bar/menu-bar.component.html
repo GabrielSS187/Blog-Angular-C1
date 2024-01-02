@@ -1,4 +1,19 @@
+
 <div class="container_menu-bar">
+  <button [cdkMenuTriggerFor]="menu" class="example-standalone-trigger">Click me!</button>
+
+<ng-template #menu>
+  <div class="example-menu" cdkMenu>
+    <button class="example-menu-item" cdkMenuItem>Refresh</button>
+    <button class="example-menu-item" cdkMenuItem>Settings</button>
+    <button class="example-menu-item" cdkMenuItem>Help</button>
+    <button class="example-menu-item" cdkMenuItem>Sign out</button>
+  </div>
+</ng-template>
+
+</div>
+
+<!-- <div class="container_menu-bar">
   <ul>
     <li><a href="https://www.linkedin.com/in/gabriel-silva-souza-developer/" target="_blank">Linkedin</a></li>
     <li><span>•</span></li>
@@ -8,4 +23,4 @@
     <li><span>•</span></li>
     <li><a href="#" target="_blank">Dio</a></li>
   </ul>
-</div>
+</div> -->

@@ -24,6 +24,7 @@ $body-background-color: #111111;
   box-sizing: border-box;
   background-color: $body-background-color;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -32,3 +33,6 @@ a {
 }
 
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
