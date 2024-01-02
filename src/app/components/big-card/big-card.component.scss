@@ -1,3 +1,7 @@
+.container_big-card > h1, a, p {
+  color: #ffff;
+}
+
 .big-card_photo {
   display: flex;
   justify-content: center;
@@ -19,5 +23,5 @@
   text-align: center;
   font-size: .7rem;
   padding: 0 .35rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
